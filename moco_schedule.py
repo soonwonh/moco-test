@@ -41,9 +41,6 @@ This demo is adapted from:
 Check GPU settings. A free GPU in Colab is <= Tesla P100. The log of the demo is based on a Tesla V100 from Google Cloud Platform.
 """
 
-gpu_info = !nvidia-smi -i 0
-gpu_info = '\n'.join(gpu_info)
-print(gpu_info)
 
 from datetime import datetime
 from functools import partial
